@@ -1,0 +1,1 @@
+# So sánh thời gian phản hồi giữa blocking và async

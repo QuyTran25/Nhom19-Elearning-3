@@ -1,0 +1,1 @@
+# Server kiểu blocking (trước tối ưu)
