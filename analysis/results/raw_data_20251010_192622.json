@@ -1,0 +1,248 @@
+{
+  "test_results": {
+    "blocking": {
+      "1": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 1,
+        "total_time": 2.031592500046827
+      },
+      "5": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 5,
+        "total_time": 2.029307199991308
+      },
+      "10": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 10,
+        "total_time": 2.0311407999834046
+      },
+      "20": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 20,
+        "total_time": 2.0453714999603108
+      },
+      "30": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 30,
+        "total_time": 2.0390243000583723
+      },
+      "50": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 50,
+        "total_time": 2.0560553999384865
+      },
+      "100": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 100,
+        "total_time": 2.0684181000106037
+      }
+    },
+    "async": {
+      "1": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 1,
+        "total_time": 4.096983000054024
+      },
+      "5": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 5,
+        "total_time": 4.062987299985252
+      },
+      "10": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 10,
+        "total_time": 4.081291900016367
+      },
+      "20": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 20,
+        "total_time": 4.102423200034536
+      },
+      "30": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 30,
+        "total_time": 4.094741499982774
+      },
+      "50": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 50,
+        "total_time": 4.116988299996592
+      },
+      "100": {
+        "response_times": [],
+        "successful_connections": 0,
+        "failed_connections": 100,
+        "total_time": 4.082638299907558
+      }
+    }
+  },
+  "analysis": {
+    "summary": {
+      "1": {
+        "blocking_avg_response": Infinity,
+        "async_avg_response": Infinity,
+        "performance_improvement": 0,
+        "blocking_success_rate": 0.0,
+        "async_success_rate": 0.0
+      },
+      "5": {
+        "blocking_avg_response": Infinity,
+        "async_avg_response": Infinity,
+        "performance_improvement": 0,
+        "blocking_success_rate": 0.0,
+        "async_success_rate": 0.0
+      },
+      "10": {
+        "blocking_avg_response": Infinity,
+        "async_avg_response": Infinity,
+        "performance_improvement": 0,
+        "blocking_success_rate": 0.0,
+        "async_success_rate": 0.0
+      },
+      "20": {
+        "blocking_avg_response": Infinity,
+        "async_avg_response": Infinity,
+        "performance_improvement": 0,
+        "blocking_success_rate": 0.0,
+        "async_success_rate": 0.0
+      },
+      "30": {
+        "blocking_avg_response": Infinity,
+        "async_avg_response": Infinity,
+        "performance_improvement": 0,
+        "blocking_success_rate": 0.0,
+        "async_success_rate": 0.0
+      },
+      "50": {
+        "blocking_avg_response": Infinity,
+        "async_avg_response": Infinity,
+        "performance_improvement": 0,
+        "blocking_success_rate": 0.0,
+        "async_success_rate": 0.0
+      },
+      "100": {
+        "blocking_avg_response": Infinity,
+        "async_avg_response": Infinity,
+        "performance_improvement": 0,
+        "blocking_success_rate": 0.0,
+        "async_success_rate": 0.0
+      }
+    },
+    "detailed_metrics": {
+      "blocking": {
+        "avg_response_times": [
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ],
+        "max_response_times": [
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ],
+        "min_response_times": [
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ],
+        "success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "throughput": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "async": {
+        "avg_response_times": [
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ],
+        "max_response_times": [
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ],
+        "min_response_times": [
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ],
+        "success_rates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "throughput": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "recommendations": [
+      "Server Async thích hợp cho ứng dụng có nhiều I/O operations",
+      "Server Blocking đơn giản hơn để debug và maintain",
+      "Với số lượng client lớn (>50), async có lợi thế rõ rệt",
+      "Cần xem xét memory usage khi scale up"
+    ]
+  },
+  "timestamp": "20251010_192622"
+}

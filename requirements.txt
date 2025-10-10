@@ -1,0 +1,22 @@
+# Requirements cho dự án So sánh Server Blocking vs Async
+# Nhóm 19 - E-Learning 3
+
+# Thư viện cơ bản
+asyncio  # Built-in với Python 3.7+
+socket  # Built-in
+threading  # Built-in
+subprocess  # Built-in
+json  # Built-in
+time  # Built-in
+statistics  # Built-in
+os  # Built-in
+sys  # Built-in
+
+# Thư viện cho phân tích và visualization
+matplotlib>=3.5.0
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Thư viện tùy chọn (nếu muốn mở rộng)
+seaborn>=0.11.0  # Cho biểu đồ đẹp hơn
+plotly>=5.0.0    # Cho biểu đồ tương tác

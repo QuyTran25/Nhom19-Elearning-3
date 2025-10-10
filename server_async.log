@@ -1,3 +1,187 @@
-2025-10-05 08:59:19,163 - INFO -  Signal handlers không được hỗ trợ trên Windows
-2025-10-05 08:59:19,228 - INFO -  Chat Server Async đã khởi động tại 127.0.0.1:8888
-2025-10-05 08:59:19,228 - INFO -  Server sẵn sàng xử lý nhiều client đồng thời!
+2025-10-10 20:12:51,579 - INFO -  Client_1: Hello from blocking client 0
+2025-10-10 20:12:52,679 - INFO -  Client_2: Hello from blocking client 0
+2025-10-10 20:12:52,817 - INFO -  Client_3: Hello from blocking client 1
+2025-10-10 20:12:52,942 - INFO -  Client_4: Hello from blocking client 2
+2025-10-10 20:12:54,058 - INFO -  Client_5: Hello from blocking client 0
+2025-10-10 20:12:54,172 - INFO -  Client_6: Hello from blocking client 1
+2025-10-10 20:12:54,298 - INFO -  Client_7: Hello from blocking client 2
+2025-10-10 20:12:54,423 - INFO -  Client_8: Hello from blocking client 3
+2025-10-10 20:12:54,533 - INFO -  Client_9: Hello from blocking client 4
+2025-10-10 20:12:55,657 - INFO -  Client_10: Hello from blocking client 0
+2025-10-10 20:12:55,779 - INFO -  Client_11: Hello from blocking client 1
+2025-10-10 20:12:55,902 - INFO -  Client_12: Hello from blocking client 2
+2025-10-10 20:12:56,010 - INFO -  Client_13: Hello from blocking client 3
+2025-10-10 20:12:56,118 - INFO -  Client_14: Hello from blocking client 4
+2025-10-10 20:12:56,229 - INFO -  Client_15: Hello from blocking client 5
+2025-10-10 20:12:56,348 - INFO -  Client_16: Hello from blocking client 6
+2025-10-10 20:12:56,473 - INFO -  Client_17: Hello from blocking client 7
+2025-10-10 20:12:57,593 - INFO -  Client_18: Hello from blocking client 0
+2025-10-10 20:12:57,715 - INFO -  Client_19: Hello from blocking client 1
+2025-10-10 20:12:57,825 - INFO -  Client_20: Hello from blocking client 2
+2025-10-10 20:12:57,933 - INFO -  Client_21: Hello from blocking client 3
+2025-10-10 20:12:58,053 - INFO -  Client_22: Hello from blocking client 4
+2025-10-10 20:12:58,176 - INFO -  Client_23: Hello from blocking client 5
+2025-10-10 20:12:58,295 - INFO -  Client_24: Hello from blocking client 6
+2025-10-10 20:12:58,414 - INFO -  Client_25: Hello from blocking client 7
+2025-10-10 20:12:58,539 - INFO -  Client_26: Hello from blocking client 8
+2025-10-10 20:12:58,662 - INFO -  Client_27: Hello from blocking client 9
+2025-10-10 20:12:59,790 - INFO -  Client_28: Hello from blocking client 0
+2025-10-10 20:12:59,915 - INFO -  Client_29: Hello from blocking client 1
+2025-10-10 20:13:00,023 - INFO -  Client_30: Hello from blocking client 2
+2025-10-10 20:13:00,132 - INFO -  Client_31: Hello from blocking client 3
+2025-10-10 20:13:00,256 - INFO -  Client_32: Hello from blocking client 4
+2025-10-10 20:13:00,380 - INFO -  Client_33: Hello from blocking client 5
+2025-10-10 20:13:00,504 - INFO -  Client_34: Hello from blocking client 6
+2025-10-10 20:13:00,628 - INFO -  Client_35: Hello from blocking client 7
+2025-10-10 20:13:00,739 - INFO -  Client_36: Hello from blocking client 8
+2025-10-10 20:13:00,863 - INFO -  Client_37: Hello from blocking client 9
+2025-10-10 20:13:00,988 - INFO -  Client_38: Hello from blocking client 10
+2025-10-10 20:13:01,112 - INFO -  Client_39: Hello from blocking client 11
+2025-10-10 20:13:01,236 - INFO -  Client_40: Hello from blocking client 12
+2025-10-10 20:13:01,360 - INFO -  Client_41: Hello from blocking client 13
+2025-10-10 20:13:01,484 - INFO -  Client_42: Hello from blocking client 14
+2025-10-10 20:13:02,603 - INFO -  Client_43: Hello from blocking client 0
+2025-10-10 20:13:02,725 - INFO -  Client_44: Hello from blocking client 1
+2025-10-10 20:13:02,849 - INFO -  Client_45: Hello from blocking client 2
+2025-10-10 20:13:02,972 - INFO -  Client_46: Hello from blocking client 3
+2025-10-10 20:13:03,097 - INFO -  Client_47: Hello from blocking client 4
+2025-10-10 20:13:03,221 - INFO -  Client_48: Hello from blocking client 5
+2025-10-10 20:13:03,330 - INFO -  Client_49: Hello from blocking client 6
+2025-10-10 20:13:03,439 - INFO -  Client_50: Hello from blocking client 7
+2025-10-10 20:13:03,563 - INFO -  Client_51: Hello from blocking client 8
+2025-10-10 20:13:03,688 - INFO -  Client_52: Hello from blocking client 9
+2025-10-10 20:13:03,813 - INFO -  Client_53: Hello from blocking client 10
+2025-10-10 20:13:03,937 - INFO -  Client_54: Hello from blocking client 11
+2025-10-10 20:13:04,061 - INFO -  Client_55: Hello from blocking client 12
+2025-10-10 20:13:04,185 - INFO -  Client_56: Hello from blocking client 13
+2025-10-10 20:13:04,295 - INFO -  Client_57: Hello from blocking client 14
+2025-10-10 20:13:04,390 - INFO -  Client_58: Hello from blocking client 15
+2025-10-10 20:13:04,514 - INFO -  Client_59: Hello from blocking client 16
+2025-10-10 20:13:04,638 - INFO -  Client_60: Hello from blocking client 17
+2025-10-10 20:13:04,746 - INFO -  Client_61: Hello from blocking client 18
+2025-10-10 20:13:04,854 - INFO -  Client_62: Hello from blocking client 19
+2025-10-10 20:14:39,744 - INFO -  Client_1: Hello from async client 0
+2025-10-10 20:14:40,760 - INFO -  Client_2: Hello from async client 0
+2025-10-10 20:14:40,769 - INFO -  Client_3: Hello from async client 1
+2025-10-10 20:14:40,785 - INFO -  Client_4: Hello from async client 2
+2025-10-10 20:14:41,788 - INFO -  Client_5: Hello from async client 0
+2025-10-10 20:14:41,803 - INFO -  Client_6: Hello from async client 1
+2025-10-10 20:14:41,806 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:41,818 - INFO -  Client_8: Hello from async client 3
+2025-10-10 20:14:41,826 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:41,829 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:41,836 - INFO -  Client_9: Hello from async client 4
+2025-10-10 20:14:41,837 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:42,819 - INFO -  Client_10: Hello from async client 0
+2025-10-10 20:14:42,831 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:42,844 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:42,847 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:42,867 - INFO -  Client_11: Hello from async client 1
+2025-10-10 20:14:42,872 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:42,876 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:42,880 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:42,899 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:42,917 - INFO -  Client_17: Hello from async client 7
+2025-10-10 20:14:43,872 - INFO -  Client_18: Hello from async client 0
+2025-10-10 20:14:43,886 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:43,901 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:43,903 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:43,924 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:43,927 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:43,934 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:43,949 - INFO -  Client_19: Hello from async client 1
+2025-10-10 20:14:43,953 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:43,956 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:43,961 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:43,964 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:43,974 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:43,978 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:43,981 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:43,983 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:44,015 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:44,029 - INFO -  Client_26: Hello from async client 8
+2025-10-10 20:14:44,033 - INFO -  Client_27: Hello from async client 9
+2025-10-10 20:14:44,987 - INFO -  Client_28: Hello from async client 0
+2025-10-10 20:14:45,000 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,013 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,016 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,035 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,038 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,042 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,054 - INFO -  Client_29: Hello from async client 1
+2025-10-10 20:14:45,059 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,063 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,067 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,070 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,081 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,084 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,087 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,089 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,103 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,107 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,110 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,112 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,128 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,132 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,135 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,137 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,158 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,162 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,165 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,168 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,183 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,187 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,204 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,208 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,281 - INFO -  Client_36: Hello from async client 8
+2025-10-10 20:14:45,296 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,312 - INFO -  Client_39: Hello from async client 11
+2025-10-10 20:14:45,313 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,315 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,324 - INFO -  Client_41: Hello from async client 13
+2025-10-10 20:14:45,332 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,334 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:45,341 - INFO -  Client_42: Hello from async client 14
+2025-10-10 20:14:45,341 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,244 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,255 - INFO -  Client_43: Hello from async client 0
+2025-10-10 20:14:46,258 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,272 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,275 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,291 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,294 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,297 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,310 - INFO -  Client_44: Hello from async client 1
+2025-10-10 20:14:46,317 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,319 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,322 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,334 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,338 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,341 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,344 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,360 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,363 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,366 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,370 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,372 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,387 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,391 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,394 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,398 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,400 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,418 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,422 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,426 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,429 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,450 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,453 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,457 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,484 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,485 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,547 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,561 - INFO -  Client_54: Hello from async client 11
+2025-10-10 20:14:46,567 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,583 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,586 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,618 - WARNING - socket.send() raised exception.
+2025-10-10 20:14:46,652 - INFO -  Client_62: Hello from async client 19

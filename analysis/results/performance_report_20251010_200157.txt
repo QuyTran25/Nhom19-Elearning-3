@@ -1,0 +1,95 @@
+
+=================================================================
+        BÁO CÁO PHÂN TÍCH HIỆU SUẤT SERVER BLOCKING vs ASYNC
+=================================================================
+Thời gian: 2025-10-10 20:01:57
+Tác giả: Nhóm 19 - E-Learning 3
+
+1. TỔNG QUAN TEST
+-----------------
+Số kịch bản test: 7
+Số client test: 1, 3, 5, 8, 10, 15, 20
+
+2. KẾT QUẢ CHI TIẾT
+------------------
+
+Kịch bản 1 clients:
+  • Blocking Server:
+    - Thời gian phản hồi TB: 0.0011s
+    - Tỷ lệ thành công: 100.0%
+  • Async Server:
+    - Thời gian phản hồi TB: 0.0005s
+    - Tỷ lệ thành công: 100.0%
+  • Cải thiện hiệu suất: 54.1%
+
+Kịch bản 3 clients:
+  • Blocking Server:
+    - Thời gian phản hồi TB: 0.0203s
+    - Tỷ lệ thành công: 100.0%
+  • Async Server:
+    - Thời gian phản hồi TB: 0.0020s
+    - Tỷ lệ thành công: 100.0%
+  • Cải thiện hiệu suất: 90.2%
+
+Kịch bản 5 clients:
+  • Blocking Server:
+    - Thời gian phản hồi TB: 0.0175s
+    - Tỷ lệ thành công: 100.0%
+  • Async Server:
+    - Thời gian phản hồi TB: 0.0021s
+    - Tỷ lệ thành công: 100.0%
+  • Cải thiện hiệu suất: 87.9%
+
+Kịch bản 8 clients:
+  • Blocking Server:
+    - Thời gian phản hồi TB: 0.0227s
+    - Tỷ lệ thành công: 100.0%
+  • Async Server:
+    - Thời gian phản hồi TB: 0.0025s
+    - Tỷ lệ thành công: 100.0%
+  • Cải thiện hiệu suất: 88.9%
+
+Kịch bản 10 clients:
+  • Blocking Server:
+    - Thời gian phản hồi TB: 0.0206s
+    - Tỷ lệ thành công: 100.0%
+  • Async Server:
+    - Thời gian phản hồi TB: 0.0020s
+    - Tỷ lệ thành công: 100.0%
+  • Cải thiện hiệu suất: 90.4%
+
+Kịch bản 15 clients:
+  • Blocking Server:
+    - Thời gian phản hồi TB: 0.0211s
+    - Tỷ lệ thành công: 100.0%
+  • Async Server:
+    - Thời gian phản hồi TB: 0.0036s
+    - Tỷ lệ thành công: 100.0%
+  • Cải thiện hiệu suất: 82.9%
+
+Kịch bản 20 clients:
+  • Blocking Server:
+    - Thời gian phản hồi TB: 0.0195s
+    - Tỷ lệ thành công: 100.0%
+  • Async Server:
+    - Thời gian phản hồi TB: 0.0050s
+    - Tỷ lệ thành công: 100.0%
+  • Cải thiện hiệu suất: 74.3%
+
+3. KHUYẾN NGHỊ
+--------------
+  Server Async nhanh hơn Server Blocking trung bình 85.6%
+  Nên sử dụng Server Async cho ứng dụng production
+  Server Async thích hợp cho ứng dụng có nhiều I/O operations
+  Server Blocking đơn giản hơn để debug và maintain
+  Với số lượng client lớn (>50), async có lợi thế rõ rệt
+  Cần xem xét memory usage khi scale up
+
+
+4. KẾT LUẬN
+-----------
+Dựa trên kết quả test, server async thường có hiệu suất tốt hơn
+khi số lượng client đồng thời tăng cao. Server blocking phù hợp
+cho các ứng dụng đơn giản với ít client concurrent.
+
+=================================================================
