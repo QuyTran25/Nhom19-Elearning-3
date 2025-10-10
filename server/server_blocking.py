@@ -2,7 +2,7 @@
 import socket
 
 HOST = "127.0.0.1"   # Địa chỉ localhost
-PORT = 5000          # Cổng server lắng nghe
+PORT = 8888          # Cổng server lắng nghe
 
 #Xử lý gửi/nhận dữ liệu từ một client duy nhất
 def handle_client(conn, addr):
